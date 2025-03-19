@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(90deg, #d5a8ca, #c8e9f6);
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+div {
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.controler {
+  height: 350px;
+  width: 350px;
+}
+button {
+  background-color: rgb(45, 178, 240);
+  color: white;
+}
+input,
+select,
+button {
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: solid rgba(145, 137, 137, 0.247);
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#result {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
